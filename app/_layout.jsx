@@ -3,7 +3,7 @@ import React, { useEffect } from 'react'
 import { Slot, SplashScreen, Stack } from 'expo-router'
 import { useFonts } from 'expo-font'
 
-SplashScreen.preventAutoHideAsync
+SplashScreen.preventAutoHideAsync()
 
 const _layout = () => {
     const [fontsLoaded, error] = useFonts({

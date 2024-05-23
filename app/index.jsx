@@ -8,7 +8,7 @@ const index = () => {
         <View className="flex-1 items-center justify-center bg-white">
             <Text className="text-3xl font-bold">Hello World </Text>
             <StatusBar style='auto' />
-            <Link href="/profile" style={{ color: 'purple' }}>Go to Profile</Link>
+            <Link href="/home" style={{ color: 'purple' }}>Go to Home</Link>
         </View>
     )
 }
