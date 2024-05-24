@@ -18,7 +18,7 @@ const index = () => {
                         <Image source={images.path} className="w-[136px] h-[15px] absolute -bottom-2 -right-8" resizeMode='contain' />
                     </View>
                     <Text className="text-sm font-pregular text-gray-100 mt-7 text-center">Where creativity meets innovation: embark on a journey of limitless exploration with Aora</Text>
-                    <CustomButton title="Continue with Email" handlePress={() => router.push('/signIn')} containerStyles="w-full mt-7" />
+                    <CustomButton title="Continue with Email" handlePress={() => router.push("/signIn")} containerStyles="w-full mt-7" />
                 </View>
             </ScrollView>
             <StatusBar backgroundColor="#161622" style="light" />
